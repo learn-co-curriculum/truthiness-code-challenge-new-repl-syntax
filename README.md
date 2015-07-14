@@ -31,7 +31,7 @@ returning_true
 
 ~~~validation
  
-assert.deepEqual(response,true);
+assert_true(response)
 
 ~~~
 
@@ -64,7 +64,7 @@ returning_false
 
 ~~~validation 
 
-assert.deepEqual(response,false);
+assert_false(response)
 
 ~~~
 
@@ -96,7 +96,7 @@ using_truthiness
 
 ~~~validation
 
-assert.deepEqual(response, false)
+assert_false(response)
 
 ~~~
 
