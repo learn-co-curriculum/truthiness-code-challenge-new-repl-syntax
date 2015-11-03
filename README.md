@@ -43,7 +43,6 @@ assert_true(response)
 
 Here we have a method, `returning_false` that uses both comparison and boolean operators. Fill out the remainder of the method so that it returns false. Then, call the method.
 
-
 ~~~ruby
 
 def returning_false
