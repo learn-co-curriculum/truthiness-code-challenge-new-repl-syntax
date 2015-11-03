@@ -5,6 +5,7 @@
 1. Strengthen your understanding of truthiness in Ruby
 2. Practice using boolean and comparison operators
 
+
 %%%
 
 ### Code Challenge I
