@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Strengthen your understanding of truthiness in Ruby
+1. Strengthen your understanding of truthiness in Rubyadsf
 2. Practice using boolean and comparison operators
 
 %%%
