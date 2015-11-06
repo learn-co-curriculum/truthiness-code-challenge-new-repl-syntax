@@ -100,7 +100,3 @@ assert_equal(response, false)
 ~~~
 
 %%%
-
-
-
-
