@@ -9,7 +9,7 @@
 
 ### Code Challenge I
 
-Take a look at the code below. We have defined a method, `returning_true` that uses a comparison operator, the `<` (less than) to compare the number 14 to...nothing. Fill out the necessary portion of the code so that the method will return `true`. Then, call the method.
+Take a look at the code below. We have defined a method, `returning_true` that uses a comparison operator, the `<` (less than) to compare the number 14 to...nothing. Fill out the necessary portion of the code so that the method will return `true`. Then call the method.
 
 ~~~ruby
 
