@@ -14,7 +14,7 @@ Take a look at the code below. We have defined a method, `returning_true` that u
 ~~~ruby
 
 def returning_true
-	14 < #your solution here
+	14 < # your solution here
 end
 
 # DO NOT touch the following line!
@@ -39,10 +39,9 @@ assert_true(response)
 
 %%%
 
-### Code Challanege II
+### Code Challenge II
 
 Here we have a method, `returning_false` that uses both comparison and boolean operators. Fill out the remainder of the method so that it returns false. Then, call the method.
-
 
 ~~~ruby
 
@@ -101,7 +100,3 @@ assert_equal(response, false)
 ~~~
 
 %%%
-
-
-
-
