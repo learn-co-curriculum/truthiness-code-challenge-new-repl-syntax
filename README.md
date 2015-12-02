@@ -100,3 +100,5 @@ assert_equal(response, false)
 ~~~
 
 %%%
+
+<a href='https://learn.co/lessons/truthiness-code-challenge-new-repl-syntax' data-visibility='hidden'>View this lesson on Learn.co</a>
