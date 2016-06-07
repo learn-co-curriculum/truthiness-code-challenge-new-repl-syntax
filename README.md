@@ -5,100 +5,74 @@
 1. Strengthen your understanding of truthiness in Ruby
 2. Practice using boolean and comparison operators
 
-%%%
+???
 
 ### Code Challenge I
 
-Take a look at the code below. We have defined a method, `returning_true` that uses a comparison operator, the `<` (less than) to compare the number 14 to...nothing. Fill out the necessary portion of the code so that the method will return `true`. Then, call the method.
+Take a look at the code below. We have defined a method, `returning_true` that uses a comparison operator, the `<` (less than) to compare the number 14 to... nothing.
 
-~~~ruby
+?: What value(s) for `?` will make `returning_true` return `true`?
 
+``` ruby
 def returning_true
-	14 < # your solution here
+  14 < ?
 end
+```
 
-# DO NOT touch the following line
+( ) 1
+(x) 15
+( ) 14
+(x) 17
 
-returning_true
 
-~~~solution
+Here we have a method, `returning_false` that uses both comparison and boolean operators.
 
-def returning_true
-	14 < 20
-end
+?: What value(s) for `?` will make `returning_false` return `false`?
 
-returning_true
-
-~~~validation
-
-assert_true(response)
-
-~~~
-
-%%%
-
-%%%
-
-### Code Challenge II
-
-Here we have a method, `returning_false` that uses both comparison and boolean operators. Fill out the remainder of the method so that it returns false. Then, call the method.
-
-~~~ruby
-
+``` ruby
 def returning_false
-	7 > 4 && 100 < #your solution here
+  7 > 4 && 100 < ?
 end
+```
 
-#DO NOT touch the following line!
-
-returning_false
-
-~~~solution
-
-def returning_false
-	7 > 4 && 100 < 99
-end
-
-returning_false
-
-~~~validation
-
-assert_false(response)
-
-~~~
-
-%%%
-
-%%%
+(x) 100
+( ) 101
+( ) 102
+( ) 103
 
 ### Code Challenge III
 
-Take a look at the method `using_truthiness` below. Fill out the missing portion so that the method returns false. Then, call the method.
+Take a look at the method `using_truthiness` below.
 
-~~~ruby
+?: What value(s) for `?` will make `using_truthiness` return `false`?
 
+
+```ruby
 def using_truthiness
-	7 > 8 || #your solution here
+  7 > 8 || ?
 end
+```
 
-#Do NOT touch the following line!
+(x) false
+(x) 8 > 9
+(x) !true
+(x) 9 < 6
 
-using_truthiness
 
-~~~solution
+?: What value(s) for `?` will make `using_truthiness` return `true`?
 
+
+```ruby
 def using_truthiness
-	7 > 8 || 8 < 7
+  7 > 8 || ?
 end
+```
 
-using_truthiness
+(x) 7 > 6
+( ) 7
+( ) false
+( ) 8 > 9
 
-~~~validation
+???
 
-assert_equal(response, false)
-
-~~~
-
-%%%
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/truthiness-code-challenge-new-repl-syntax' title='Truthiness Code Challenge'>Truthiness Code Challenge</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/truthiness-code-challenge' title='Truthiness Code Challenge'>Truthiness Code Challenge</a> on Learn.co and start learning to code for free.</p>
