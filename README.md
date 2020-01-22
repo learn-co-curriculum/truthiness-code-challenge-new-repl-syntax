@@ -1,4 +1,4 @@
-# Truthiness Code Challenge
+# Truthiness Quiz
 
 ## Objectives
 
@@ -7,7 +7,7 @@
 
 ???
 
-### Code Challenge I
+### Problem 1
 
 Take a look at the code below. We have defined a method, `returning_true` that uses a comparison operator, the `<` (less than) to compare the number 14 to... nothing.
 
@@ -25,6 +25,8 @@ end
 (x) 17
 
 
+### Problem 2
+
 Here we have a method, `returning_false` that uses both comparison and boolean operators.
 
 ?: What value(s) for `?` will make `returning_false` return `false`?
@@ -40,7 +42,7 @@ end
 ( ) 102
 ( ) 103
 
-### Code Challenge III
+### Problem 3
 
 Take a look at the method `using_truthiness` below.
 
@@ -58,6 +60,7 @@ end
 (x) !true
 (x) 9 < 6
 
+### Problem 4
 
 ?: What value(s) for `?` will make `using_truthiness` return `true`?
 
