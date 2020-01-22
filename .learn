@@ -1,2 +1,10 @@
+tags:
+  - truthiness
+  - boolean values
+  - boolean operators
+  - comparison operators
+  - repl
 languages:
-  - none
+  - ruby
+resources:
+  - 0
